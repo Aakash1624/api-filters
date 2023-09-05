@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API-FlITERS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <h1 class="main-title">MY PRODUCTS</h1>
+    <div class="filter-container">
+      <div class="search-container">
+        <input
+          type="text"
+          name=""
+          id="search"
+          placeholder="search by products "
+        />
+        <button id="btn-search">Search</button>
+      </div>
+      <div class="select-container">
+        <select name="" id="select">
+          <option value="all" selected>All</option>
+        </select>
+      </div>
+      <div class="other-container">
+        <button id="btn-sort-price">sort by price</button>
+        <button id="btn-sort-title">sort by title</button>
+      </div>
+    </div>
+    <ul class="product-container" id="product-container"></ul>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+:root {
+  --clr-emerald: #10bd5e;
+  --clr-light-green: #b6f099;
+  --clr-dark-red: #cc1006;
+  --clr-amber: #ffbe0bff;
+  --clr-rose: #ff006eff;
+  --clr-blue-violet: #8338ecff;
+  --clr-azure: #3a86ffff;
+  --clr-orange: #fb5607ff;
+  --clr-folly: #ff0054ff;
+  --clr-melon: #ffa69eff;
+  --clr-lite-gray: #e9ecefff;
+  --clr-dark-gray: #595959ff;
+  --clr-dark-shadow: 0 30px 38px rgba(0, 0, 0, 0.302),
+    0 15px 10px rgba(0, 0, 0, 0.22);
+  --clr-light-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* .img {
+  width: 15rem;
+  height: 15rem;
+  -o-object-fit: contain;
+  object-fit: contain;
+} */
+
+.main-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: var(--clr-light-shadow);
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.product-image {
+  height: 4rem;
+  background: none;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-body {
+  text-align: center;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+input,
+select,
+button {
+  padding: 0.5rem 1rem;
+}
